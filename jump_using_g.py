@@ -36,7 +36,7 @@ def scr():
     pyxel.text(5, 5, f"g = {g}", 7)
 
 
-pyxel.init(scr_width, scr_height, "jump")
+pyxel.init(scr_width, scr_height)
 
 while True:
     scr()
